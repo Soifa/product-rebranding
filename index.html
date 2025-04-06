@@ -152,7 +152,7 @@
 
       .photo-wrapper {
         flex: 1;
-        max-width: 80%;
+        max-width: 100%;
       }
 
       .photo-wrapper img {
@@ -160,6 +160,43 @@
         height: auto;
         display: block;
         margin: 0 auto;
+      }
+      
+      .poster-title {
+        font-family: "Kite One", sans-serif;
+        font-size: 3em;
+        padding: 0 100px;
+        color: black;
+        margin-top: 2em;
+      }
+
+      .poster-title p {
+        margin: 0;
+      }
+      
+      .photo-scroll {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding: 20px;
+        white-space: nowrap;
+      }
+
+      .photo-item {
+        flex: 0 0 auto;
+        width: 400px;
+        color: #00A0EC;
+        font-family: "Kite One", sans-serif;
+        font-size: 2em;
+        max-width: 37.5em;
+        text-align: center;
+      }
+
+      .photo-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
       }
       
       .nav-bar {
@@ -228,6 +265,59 @@
       </div>
       
       
+      <!-- Mock Up Title...-->
+      <div class="poster-title">
+        <p>Mock Up</p>
+      </div>
+      
+      <div class="photo-scroll">
+        <!-- Mock Up Set -->
+        <div class="photo-item">
+          <img src="mockup-set copy.png" alt="Mock Up Set">
+        </div>
+        
+        <!-- Mock Up Open -->
+        <div class="photo-item">
+          <img src="mockup blue2 copy-min.png" alt="Mock Up Open">
+        </div>
+        
+        <!-- Portrait with Emotion -->
+        <div class="photo-item">
+          <img src="3.Portrait-2-min.JPG" alt="Portrait with Emotion">
+          <p>Portrait with Emotion</p>
+        </div>
+        
+        <!-- Wildlife -->
+        <div class="photo-item">
+          <img src="4.Wildlife-min.JPG" alt="Wildlife">
+          <p>Wildlife</p>
+        </div>
+        
+        <!-- Fashion -->
+        <div class="photo-item">
+          <img src="5.Fashion-min.JPG" alt="Fashion">
+          <p>Fashion</p>
+        </div>
+        
+        <!-- Macro -->
+        <div class="photo-item">
+          <img src="6.Macro-min.JPG" alt="Macro">
+          <p>Macro</p>
+        </div>
+        
+        <!-- Action -->
+        <div class="photo-item">
+          <img src="7.Action-Sports-min.JPG" alt="Action">
+          <p>Action</p>
+        </div>
+        
+        <!-- Long Exposure -->
+        <div class="photo-item">
+          <img src="9.Long-Exposure-min.JPG" alt="Long-Exposure">
+          <p>Long Exposure</p>
+        </div>
+        <!-- end of scroll gallery -->
+      </div>
       
       
       
