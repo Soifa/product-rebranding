@@ -199,6 +199,20 @@
         border-radius: 12px;
       }
       
+      .pdf-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #FFED81;
+      }
+
+      .pdf-viewer {
+        width: 80%;
+        height: 80vh;
+        border: none;
+      }
+      
       .nav-bar {
         position: fixed;
         top: 0;
@@ -269,7 +283,9 @@
         <p>Visual Identity</p>
       </div>
       
-     <embed src="Sofia_Xu_project2_part3-compressed_1.pdf" type="application/pdf" width="80%" height="10em">
+      <div class="pdf-container">
+     <embed src="Sofia_Xu_project2_part3-compressed_1.pdf" type="application/pdf" class="pdf-viewer">
+      </div>
       
       <!-- Mock Up & Merch Title...-->
       <div class="poster-title">
